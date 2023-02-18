@@ -33,6 +33,20 @@ class Tasks extends StatelessWidget {
         color: task.bgColor,
         borderRadius: BorderRadius.circular(20)
       ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(
+            task.iconData,
+            color: task.iconColor,
+            size: 35,
+          ),
+          SizedBox(height: 30,),
+          Text(
+            task.title!
+          ),
+        ],
+      ),
     );
   }
 }
