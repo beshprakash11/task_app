@@ -13,6 +13,17 @@ class HomePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           GoPremium(),
+          Container(
+            padding: EdgeInsets.all(15),
+            child: Text(
+              'Tasks',
+              style: TextStyle(
+                fontSize: 22,
+                fontWeight: FontWeight.bold
+              ),
+            ),
+          ),
+          
         ],
       ),
     );
