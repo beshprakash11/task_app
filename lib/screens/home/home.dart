@@ -32,6 +32,9 @@ class HomePage extends StatelessWidget {
             ),
           ],
         ),
+        actions: [
+          Icon(Icons.more_vert, color: Colors.black, size: 40,)
+        ],
       ),
       body: Center(child: Text("First pages")),
     );
