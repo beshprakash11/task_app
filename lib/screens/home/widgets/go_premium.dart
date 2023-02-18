@@ -51,6 +51,19 @@ class GoPremium extends StatelessWidget {
               ],
             )
           ),
+          Positioned(
+            bottom: 15,
+            right: 15,
+            child: Container(
+              padding: EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: Colors.blueAccent,
+                borderRadius: BorderRadius.circular(15)
+              ),
+              child: Icon(Icons.arrow_forward),
+              color: Colors.white,
+            ),
+          )
         ],
       ),
     );
