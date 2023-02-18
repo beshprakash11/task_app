@@ -20,10 +20,11 @@ class Tasks extends StatelessWidget {
   }
   
   Widget _buildAddTask(){
+    return Text("Add Task");
 
   }
 
   Widget _buildTask(BuildContext context, Task task){
-
+    return Text("data");
   }
 }
