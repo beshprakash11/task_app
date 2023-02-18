@@ -15,7 +15,14 @@ class GoPremium extends StatelessWidget {
               color: Colors.black,
               borderRadius: BorderRadius.circular(20)
             ),
-            child: Text('Premium')
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(
+                  child: Icon(Icons.star, color: Colors.white, size: 20,),
+                )
+              ],
+            )
           ),
         ],
       ),
