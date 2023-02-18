@@ -21,8 +21,8 @@ class HomePage extends StatelessWidget {
                 child: Image.asset('assets/images/avatar.jpg'),
               ),
             ),
-            SizedBox(width: 10,),
-            Text(
+            const SizedBox(width: 10,),
+            const Text(
               'Hi, BPA',
               style: TextStyle(
                 color: Colors.black,
