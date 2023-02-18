@@ -52,7 +52,7 @@ class Tasks extends StatelessWidget {
           SizedBox(height: 20,),
           Row(
             children: [
-              _buildTaskStatus()
+              _buildTaskStatus(task.btnColor!, task.iconColor!, '${task.left} left')
             ],
           )
         ],
