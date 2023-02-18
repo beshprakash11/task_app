@@ -15,11 +15,13 @@ class HomePage extends StatelessWidget {
             Container(
               height: 45,
               width: 45,
+              margin: EdgeInsets.only(left: 15),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                 child: Image.asset('assets/images/avatar.jpg'),
               ),
-            )
+            ),
+            SizedBox(width: 10,),
           ],
         ),
       ),
