@@ -26,6 +26,12 @@ class Tasks extends StatelessWidget {
   }
 
   Widget _buildTask(BuildContext context, Task task){
-    return Text("data");
+    return Container(
+      padding: EdgeInsets.all(15),
+      decoration: BoxDecoration(
+        color: task.bgColor,
+        borderRadius: BorderRadius.circular(20)
+      ),
+    );
   }
 }
