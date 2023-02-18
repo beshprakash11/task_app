@@ -60,8 +60,7 @@ class GoPremium extends StatelessWidget {
                 color: Colors.blueAccent,
                 borderRadius: BorderRadius.circular(15)
               ),
-              child: Icon(Icons.arrow_forward),
-              color: Colors.white,
+              child: Icon(Icons.arrow_forward, color: Colors.white,),
             ),
           )
         ],
