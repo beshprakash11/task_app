@@ -39,9 +39,10 @@ class Task{
         bgColor: kBlueLight,
         iconColor: kBlueDark,
         btnColor: kBlue,
-        left: 3,
-        done: 1,
+        left: 0,
+        done: 0,
       ),
+      Task(isLast: true)
     ];
   }
 
