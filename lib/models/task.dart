@@ -1,4 +1,5 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:task_app/constants/colors.dart';
 
 class Task{
   IconData? iconData;
@@ -14,4 +15,17 @@ class Task{
     this.iconColor, this.btnColor, this.left,
     this.done, this.isLast = false
   });
+  
+  static List<Task> generateTask(){
+    return [
+      Task(iconData: Icons.person_rounded, 
+        title: 'Personal', 
+        bgColor: kYellowLight,
+        iconColor: kYellow,
+        left: 3,
+        done: 1,
+      ),
+    ];
+  }
+
 }
