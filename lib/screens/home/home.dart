@@ -23,7 +23,10 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          
+          Expanded(
+            child: Tasks(),
+          )
+
         ],
       ),
     );
