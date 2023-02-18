@@ -19,6 +19,11 @@ class GoPremium extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
+                  padding: EdgeInsets.all(5),
+                  decoration: BoxDecoration(
+                    color: Colors.grey[800],
+                    shape: BoxShape.circle
+                  ),
                   child: Icon(Icons.star, color: Colors.white, size: 20,),
                 )
               ],
