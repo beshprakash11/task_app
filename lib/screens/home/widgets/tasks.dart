@@ -22,4 +22,8 @@ class Tasks extends StatelessWidget {
   Widget _buildAddTask(){
 
   }
+
+  Widget _buildTask(BuildContext context, Task task){
+
+  }
 }
