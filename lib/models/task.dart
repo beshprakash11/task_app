@@ -38,6 +38,7 @@ class Task{
         title: 'Healthy', 
         bgColor: kBlueLight,
         iconColor: kBlueDark,
+        btnColor: kBlue,
         left: 3,
         done: 1,
       ),
