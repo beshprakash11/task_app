@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      actions: [
+      actions: const [
         Icon(Icons.more_vert, color: Colors.black, size: 40,)
       ],
     );
