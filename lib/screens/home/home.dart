@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_app/screens/home/widgets/go_premium.dart';
+import 'package:task_app/screens/home/widgets/tasks.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
