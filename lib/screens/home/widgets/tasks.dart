@@ -43,7 +43,11 @@ class Tasks extends StatelessWidget {
           ),
           SizedBox(height: 30,),
           Text(
-            task.title!
+            task.title!,
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.bold
+            ),
           ),
         ],
       ),
