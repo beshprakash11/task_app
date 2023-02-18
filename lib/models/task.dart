@@ -30,6 +30,7 @@ class Task{
         title: 'Work', 
         bgColor: kRedLight,
         iconColor: kRedDark,
+        btnColor: kRed,
         left: 0,
         done: 0,
       ),
