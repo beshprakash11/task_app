@@ -8,6 +8,7 @@ class Tasks extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: GridView.builder(
+        itemCount: tasksList.length,
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
           crossAxisSpacing: 10,
