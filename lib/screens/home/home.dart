@@ -22,6 +22,14 @@ class HomePage extends StatelessWidget {
               ),
             ),
             SizedBox(width: 10,),
+            Text(
+              'Hi, BPA',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 26,
+                fontWeight: FontWeight.bold
+              ),
+            ),
           ],
         ),
       ),
