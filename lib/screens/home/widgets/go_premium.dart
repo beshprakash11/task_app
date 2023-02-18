@@ -25,6 +25,15 @@ class GoPremium extends StatelessWidget {
                     shape: BoxShape.circle
                   ),
                   child: Icon(Icons.star, color: Colors.white, size: 20,),
+                ),
+                SizedBox(width: 15,),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('Go Premium'),
+                    SizedBox(height: 10,),
+                    Text('Get unlimited access\nto all our features!'),
+                  ],
                 )
               ],
             )
