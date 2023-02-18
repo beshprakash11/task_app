@@ -32,6 +32,13 @@ class Task{
         left: 0,
         done: 0,
       ),
+      Task(iconData: Icons.favorite_rounded, 
+        title: 'Healthy', 
+        bgColor: kYellowLight,
+        iconColor: kYellow,
+        left: 3,
+        done: 1,
+      ),
     ];
   }
 
