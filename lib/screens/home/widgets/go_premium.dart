@@ -39,7 +39,13 @@ class GoPremium extends StatelessWidget {
                       ),
                     ),
                     SizedBox(height: 10,),
-                    Text('Get unlimited access\nto all our features!'),
+                    Text(
+                      'Get unlimited access\nto all our features!',
+                      style: TextStyle(
+                        fontSize: 16,
+                        color: Colors.grey[700]
+                      ),
+                    ),
                   ],
                 )
               ],
