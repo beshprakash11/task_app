@@ -13,9 +13,13 @@ class Tasks extends StatelessWidget {
           crossAxisSpacing: 10,
           mainAxisSpacing: 10
         ), 
-        itemBuilder: itemBuilder
+        itemBuilder: (context, index) => 
+        tasksList[index].isLast ? _buildAddTask() : _buildTask(context, tasksList[index])
       ),
     );
   }
   
+  Widget _buildAddTask(){
+
+  }
 }
