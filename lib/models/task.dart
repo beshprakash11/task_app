@@ -25,6 +25,13 @@ class Task{
         left: 3,
         done: 1,
       ),
+      Task(iconData: Icons.cases_rounded, 
+        title: 'Work', 
+        bgColor: kRedLight,
+        iconColor: kRedDark,
+        left: 0,
+        done: 0,
+      ),
     ];
   }
 
