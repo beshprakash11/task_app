@@ -12,7 +12,16 @@ class TaskTimeline extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 15),
       child: Row(
         children: [
-          _buildTimeline(detail['tlColor'])
+          _buildTimeline(detail['tlColor']),
+          Expanded(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(detail['time'])
+              ],
+            ),
+          )
         ],
       ),
     );
@@ -36,6 +45,10 @@ class TaskTimeline extends StatelessWidget {
               border: Border.all(width: 5, color: color),
             ),
           )
+        ),
+        afterLineStyle: LineStyle(
+          thickness: 2,
+          color: color
         ),
       ),
     );
