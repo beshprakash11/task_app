@@ -26,6 +26,16 @@ class Task{
         btnColor: kYellow,
         left: 3,
         done: 1,
+        desc: [
+          {
+            'time':'9:00 am',
+            'title':'GO for a walk with dog.',
+            'slot':'9:00 - 10:00 am',
+            'tlColor': kRedDark,
+            'bgColor': kRedLight
+          },
+          
+        ]
       ),
       Task(iconData: Icons.cases_rounded, 
         title: 'Work', 
