@@ -30,9 +30,18 @@ class HomePage extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: _buildBottomnavigationBar(),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(10)
+        ),
+        elevation: 0,
+        backgroundColor: Colors.black,
         onPressed: (){},
-        child: Icon(Icons.add_rounded),
+        child: Icon(
+          Icons.add,
+          size: 35,
+        ),
       ),
     );
   }
