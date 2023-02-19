@@ -31,6 +31,8 @@ class _DatePickerState extends State<DatePicker> {
           GestureDetector(
             onTap: () => setState(() => selected = index),
             child: Container(
+              padding: EdgeInsets.all(10),
+              margin: EdgeInsets.symmetric(horizontal: 4,),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 color: selected == index ? Colors.grey.withOpacity(0.1): null
@@ -42,7 +44,7 @@ class _DatePickerState extends State<DatePicker> {
                     color: selected == index ? Colors.black : Colors.grey
                   ),
                 ),
-                const SizedBox(height: 5,),
+                //const SizedBox(height: 1,),
                 Text(
                   dayList[index],
                   style: TextStyle(
