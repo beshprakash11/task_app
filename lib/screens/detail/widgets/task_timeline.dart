@@ -47,9 +47,19 @@ class TaskTimeline extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(title),
+          Text(
+            title,
+            style: TextStyle(
+              fontWeight: FontWeight.bold
+            ),          
+          ),
           SizedBox(height: 10,),
-          Text(slot)
+          Text(
+            slot,
+            style: TextStyle(
+              color: Colors.grey
+            ),
+          )
         ],
       ),
     );
