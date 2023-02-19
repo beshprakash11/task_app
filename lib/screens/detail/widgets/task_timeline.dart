@@ -26,6 +26,15 @@ class TaskTimeline extends StatelessWidget {
         alignment: TimelineAlign.manual,
         lineXY: 0,
         isFirst: true,
+        indicatorStyle: IndicatorStyle(
+          indicatorXY: 0,
+          width: 15,
+          indicator: Container(
+            decoration: BoxDecoration(
+              
+            ),
+          )
+        ),
       ),
     );
   }
