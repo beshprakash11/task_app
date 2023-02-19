@@ -57,6 +57,19 @@ class Task{
             'time':'1:00 pm',
             'title':'Call with client',
             'slot':'1:00 pm - 2:00 pm',
+            'tlColor': kYellowDark,
+            'bgColor' : kYellowLight
+          },
+          {
+            'time':'2:00 pm',
+            'title':'',
+            'slot':'',
+            'tlColor': Colors.grey.withOpacity(0.3),
+          },
+          {
+            'time':'3:00 pm',
+            'title':'',
+            'slot':'',
             'tlColor': Colors.grey.withOpacity(0.3),
           },
         ]
