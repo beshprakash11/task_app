@@ -47,6 +47,12 @@ class Task{
             'slot':'',
             'tlColor': kBlueDark,
           },
+          {
+            'time':'12:00 am',
+            'title':'',
+            'slot':'',
+            'tlColor': Colors.grey.withOpacity(0.3),
+          },
         ]
       ),
       Task(iconData: Icons.cases_rounded, 
