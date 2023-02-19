@@ -18,7 +18,8 @@ class TaskTimeline extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(detail['time'])
+                Text(detail['time']),
+                _buildCard()
               ],
             ),
           )
@@ -27,6 +28,11 @@ class TaskTimeline extends StatelessWidget {
     );
   }
 
+  Widget _buildCard(){
+    return Container(
+      child: Text('Hello'),
+    );
+  }
   Widget _buildTimeline(Color color, ){
     return Container(
       height: 80,
