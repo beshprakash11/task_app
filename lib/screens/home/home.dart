@@ -34,7 +34,22 @@ class HomePage extends StatelessWidget {
   }
 
   Widget _buildBottomnavigationBar(){
-    return Center();
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.only(
+          topLeft: Radius.circular(30),
+          topRight: Radius.circular(30)
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.grey.withOpacity(0.2),
+            spreadRadius: 5,
+            blurRadius: 10
+          ),
+        ]
+      ),
+      child: ClipRRect(),
+    );
     
   }
 
