@@ -34,7 +34,19 @@ class Task{
             'tlColor': kRedDark,
             'bgColor': kRedLight
           },
-          
+          {
+            'time':'10:00 am',
+            'title':'Shot on Dribble.',
+            'slot':'10:00 - 12:00 am',
+            'tlColor': kBlueDark,
+            'bgColor': kBlueLight
+          },
+          {
+            'time':'11:00 am',
+            'title':'',
+            'slot':'',
+            'tlColor': kBlueDark,
+          },
         ]
       ),
       Task(iconData: Icons.cases_rounded, 
