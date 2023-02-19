@@ -9,11 +9,12 @@ class Task{
   Color? btnColor;
   num? left;
   num? done;
+  List<Map<String, dynamic>>? desc;
   bool isLast;
   Task({
     this.iconData, this.title, this.bgColor, 
     this.iconColor, this.btnColor, this.left,
-    this.done, this.isLast = false
+    this.done, this.desc ,this.isLast = false
   });
   
   static List<Task> generateTask(){
