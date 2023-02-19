@@ -9,6 +9,7 @@ class DetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final detalList = task.desc;
     
     return Scaffold(
       backgroundColor: Colors.black,
