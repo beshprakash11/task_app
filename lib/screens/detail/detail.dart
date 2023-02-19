@@ -32,6 +32,8 @@ class DetailPage extends StatelessWidget {
       ],
       flexibleSpace: FlexibleSpaceBar(
         title: Column(
+          mainAxisAlignment: MainAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               '${task.title} task',
