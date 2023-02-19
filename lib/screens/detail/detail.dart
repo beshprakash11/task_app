@@ -12,7 +12,7 @@ class DetailPage extends StatelessWidget {
       backgroundColor: Colors.black,
       body: CustomScrollView(
         slivers: [
-          _buildAppBar(context);
+          _buildAppBar(context)
         ],
       ),
     );
@@ -22,7 +22,11 @@ class DetailPage extends StatelessWidget {
     return SliverAppBar(
       expandedHeight: 90,
       backgroundColor: Colors.black,
-      
+      leading: IconButton(
+        onPressed: () => Navigator.of(context).pop(),
+        icon: Icon(Icons.arrow_back_ios),
+        iconSize: 20,
+      ),
     );
   }
 }
