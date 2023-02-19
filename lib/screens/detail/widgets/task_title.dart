@@ -24,7 +24,13 @@ class TaskTitle extends StatelessWidget {
               borderRadius: BorderRadius.circular(20)
             ),
             child: Row(children: [
-              Text('Timeline'),
+              Text(
+                'Timeline',
+                style: TextStyle(
+                  color: Colors.grey[700],
+                  fontWeight: FontWeight.bold
+                ),
+              ),
               Icon(Icons.keyboard_arrow_down_outlined)
             ]),
           )
