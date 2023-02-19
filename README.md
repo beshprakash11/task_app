@@ -10,3 +10,6 @@ In this project two library is uses, one is dotted border and another is timetil
 ## Timeline Title 
 - This is used to add time line in the task.
 - link: https://pub.dev/packages/timeline_tile
+
+# Image assets
+- Here, only one images is uses from assets/images folder.
