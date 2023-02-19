@@ -19,7 +19,9 @@ class TaskTimeline extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(detail['time']),
-                _buildCard(detail['bgColor'], detail['title'], detail['slot'])
+                detail['title'].isNotEmpty ? 
+                _buildCard(detail['bgColor'], detail['title'], detail['slot']) :
+                _buildCard(Colors.white, '', '')
               ],
             ),
           )
