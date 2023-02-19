@@ -30,6 +30,10 @@ class HomePage extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: _buildBottomnavigationBar(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){},
+        child: Icon(Icons.add_rounded),
+      ),
     );
   }
 
@@ -62,7 +66,6 @@ class HomePage extends StatelessWidget {
           items: 
             [
               BottomNavigationBarItem(label: 'Home',icon: Icon(Icons.home_rounded, size: 30,)),
-              BottomNavigationBarItem(label: 'Add',icon: Icon(Icons.add_rounded, size: 30,)),
               BottomNavigationBarItem(label: 'Person',icon: Icon(Icons.person_rounded, size: 30,))
             ]
           ),
