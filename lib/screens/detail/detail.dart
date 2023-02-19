@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:task_app/models/task.dart';
 import 'package:task_app/screens/detail/widgets/date_picker.dart';
+import 'package:task_app/screens/detail/widgets/task_timeline.dart';
 import 'package:task_app/screens/detail/widgets/task_title.dart';
 
 class DetailPage extends StatelessWidget {

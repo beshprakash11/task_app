@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class TaskTimeline extends StatelessWidget {
-  const TaskTimeline({super.key});
+  final Map<String, dynamic> detail;
+  TaskTimeline(this.detail);
 
   @override
   Widget build(BuildContext context) {
