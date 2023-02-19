@@ -53,7 +53,8 @@ class DetailPage extends StatelessWidget {
           ): 
           SliverList(
             delegate: SliverChildBuilderDelegate(
-              (_, index) => TaskTimeline()
+              (_, index) => TaskTimeline(detalList[index]),
+              childCount: detalList.length
             )
           )
 
