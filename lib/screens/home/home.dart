@@ -26,11 +26,16 @@ class HomePage extends StatelessWidget {
           ),
           Expanded(
             child: Tasks(),
-          )
-
+          ),
         ],
       ),
+      bottomNavigationBar: _buildBottomnavigationBar(),
     );
+  }
+
+  Widget _buildBottomnavigationBar(){
+    return Center();
+    
   }
 
   AppBar _buildAppBar() {
