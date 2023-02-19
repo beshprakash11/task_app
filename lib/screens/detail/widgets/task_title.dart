@@ -18,6 +18,11 @@ class TaskTitle extends StatelessWidget {
             ),
           ),
           Container(
+            padding: EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              color: Colors.grey.withOpacity(0.1),
+              borderRadius: BorderRadius.circular(20)
+            ),
             child: Row(children: [
               Text('Timeline'),
               Icon(Icons.keyboard_arrow_down_outlined)
