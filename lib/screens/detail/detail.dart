@@ -30,6 +30,26 @@ class DetailPage extends StatelessWidget {
       actions: [
         Icon(Icons.more_vert, size: 40,)
       ],
+      flexibleSpace: FlexibleSpaceBar(
+        title: Column(
+          children: [
+            Text(
+              '${task.title} task',
+              style: TextStyle(
+                fontWeight: FontWeight.bold
+              ),
+            ),
+            SizedBox(height: 5,),
+            Text(
+              'You have ${task.left} task for today!',
+              style: TextStyle(
+                fontSize: 12,
+                color: Colors.grey
+              ),
+            )
+          ],
+        ),
+      ),
     );
   }
 }
