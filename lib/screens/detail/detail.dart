@@ -34,6 +34,29 @@ class DetailPage extends StatelessWidget {
               ),
             ),
           ),
+
+          detalList == null ? 
+          SliverFillRemaining(
+            child: Container(
+              color: Colors.white,
+              child: Center(
+                child: Text(
+                  'No task today!',
+                  style: TextStyle(
+                    color: Colors.grey, 
+                    fontSize: 18
+                  ),
+                ),
+              ),
+            ),
+          ): 
+          SliverList(
+            delegate: SliverChildBuilderDelegate(
+              (_, index) => TaskTimeline()
+            )
+          )
+
+
         ],
       ),
     );
