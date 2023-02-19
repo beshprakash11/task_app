@@ -53,6 +53,12 @@ class Task{
             'slot':'',
             'tlColor': Colors.grey.withOpacity(0.3),
           },
+          {
+            'time':'1:00 pm',
+            'title':'Call with client',
+            'slot':'1:00 pm - 2:00 pm',
+            'tlColor': Colors.grey.withOpacity(0.3),
+          },
         ]
       ),
       Task(iconData: Icons.cases_rounded, 
