@@ -9,8 +9,11 @@ class DetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     
     return Scaffold(
-      body: Center(
-        child: Text("Detail Pages"),
+      backgroundColor: Colors.black,
+      body: CustomScrollView(
+        slivers: [
+          _buildAppBar(context);
+        ],
       ),
     );
   }
