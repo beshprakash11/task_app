@@ -27,6 +27,9 @@ class DetailPage extends StatelessWidget {
         icon: Icon(Icons.arrow_back_ios),
         iconSize: 20,
       ),
+      actions: [
+        Icon(Icons.more_vert, size: 40,)
+      ],
     );
   }
 }
