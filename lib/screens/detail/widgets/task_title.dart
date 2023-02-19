@@ -6,7 +6,18 @@ class TaskTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('Task Title'),
+      padding: EdgeInsets.all(15),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Text('Task'),
+          Container(
+            child: Row(children: [
+              
+            ]),
+          )
+        ],
+      ),
     );
   }
 }
