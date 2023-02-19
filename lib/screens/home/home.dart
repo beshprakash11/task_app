@@ -48,7 +48,20 @@ class HomePage extends StatelessWidget {
           ),
         ]
       ),
-      child: ClipRRect(),
+      child: ClipRRect(
+        borderRadius: BorderRadius.only(
+          topLeft: Radius.circular(30),
+          topRight: Radius.circular(30)
+        ),
+        child: BottomNavigationBar(
+          items: 
+            [
+              BottomNavigationBarItem(label: 'Home',icon: Icon(Icons.home_rounded, size: 30,)),
+              BottomNavigationBarItem(label: 'Add',icon: Icon(Icons.add_rounded, size: 30,)),
+              BottomNavigationBarItem(label: 'Person',icon: Icon(Icons.person_rounded, size: 30,))
+            ]
+          ),
+      ),
     );
     
   }
