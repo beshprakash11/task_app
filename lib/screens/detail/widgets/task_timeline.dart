@@ -30,9 +30,28 @@ class TaskTimeline extends StatelessWidget {
     );
   }
 
-  Widget _buildCard(Color bgColro, String title, String slot){
+  Widget _buildCard(Color bgColor, String title, String slot){
     return Container(
-      child: Text('Hello'),
+      width: 250,
+      decoration: BoxDecoration(
+        color: bgColor,
+        borderRadius: BorderRadius.only(
+          topRight: Radius.circular(10),
+          bottomLeft: Radius.circular(10),
+          bottomRight: Radius.circular(10),
+        )
+      ),
+      padding: EdgeInsets.all(15),
+      
+      margin: EdgeInsets.all(5),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(title),
+          SizedBox(height: 10,),
+          Text(slot)
+        ],
+      ),
     );
   }
   Widget _buildTimeline(Color color, ){
