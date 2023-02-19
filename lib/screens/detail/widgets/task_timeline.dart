@@ -7,7 +7,13 @@ class TaskTimeline extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('Details'),
+      color: Colors.white,
+      padding: EdgeInsets.symmetric(horizontal: 15),
+      child: Row(
+        children: [
+          _buildTimeline()
+        ],
+      ),
     );
   }
 }
