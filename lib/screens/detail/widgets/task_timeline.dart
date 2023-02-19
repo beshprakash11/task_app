@@ -11,9 +11,13 @@ class TaskTimeline extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 15),
       child: Row(
         children: [
-          _buildTimeline()
+          _buildTimeline(detail['tlColor'])
         ],
       ),
     );
+  }
+
+  Widget _buildTimeline(Color color, ){
+    return Container();
   }
 }
