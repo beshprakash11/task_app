@@ -10,10 +10,17 @@ class TaskTitle extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text('Task'),
+          Text(
+            'Task',
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.bold
+            ),
+          ),
           Container(
             child: Row(children: [
-              
+              Text('Timeline'),
+              Icon(Icons.keyboard_arrow_down_outlined)
             ]),
           )
         ],
