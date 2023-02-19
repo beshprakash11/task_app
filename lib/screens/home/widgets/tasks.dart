@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:task_app/models/task.dart';
 
+import 'package:dotted_border/dotted_border.dart';
+
 class Tasks extends StatelessWidget {
   final tasksList = Task.generateTask();
 
@@ -22,7 +24,22 @@ class Tasks extends StatelessWidget {
   }
   
   Widget _buildAddTask(){
-    return Text("Add Task");
+    return DottedBorder(
+      borderType: BorderType.RRect,
+      radius: Radius.circular(20),
+      dashPattern: [10, 10],
+      color: Colors.grey,
+      strokeWidth: 2,
+      child: Center(
+        child: Text(
+          "+ Add",
+          style: TextStyle(
+            fontSize: 18,
+            fontWeight: FontWeight.bold
+          ),
+        ),
+      ),
+    );
 
   }
 
