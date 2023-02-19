@@ -12,7 +12,23 @@ class DetailPage extends StatelessWidget {
       backgroundColor: Colors.black,
       body: CustomScrollView(
         slivers: [
-          _buildAppBar(context)
+          _buildAppBar(context),
+          SliverToBoxAdapter(
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(20),
+                  topRight: Radius.circular(20),
+                )
+              ),
+              child: Column(
+                children: [
+                  
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
