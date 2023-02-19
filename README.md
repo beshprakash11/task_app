@@ -2,6 +2,10 @@
 - This is just frontend designed with Model, view concepts
 
 # Library used:
-## Dotted border added: 
+## Dotted border: 
 - This is used to add border in the widgets.
 - link: https://pub.dev/packages/dotted_border
+
+## Timeline Title 
+- This is used to add time line in the task.
+- link: https://pub.dev/packages/timeline_tile
