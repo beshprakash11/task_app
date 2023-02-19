@@ -31,6 +31,10 @@ class _DatePickerState extends State<DatePicker> {
           GestureDetector(
             onTap: () => setState(() => selected = index),
             child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                color: selected == index ? Colors.grey.withOpacity(0.1): null
+              ),
               child: Column(children: [
                 Text(
                   weakList[index],
