@@ -15,6 +15,17 @@ class _DatePickerState extends State<DatePicker> {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(
+      child: Container(
+        height: 100,
+        padding: EdgeInsets.symmetric(vertical: 20),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(30),
+            topRight: Radius.circular(30),
+          )
+        ),
+      ),
+    );
   }
 }
