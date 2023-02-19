@@ -23,8 +23,9 @@ class DetailPage extends StatelessWidget {
                 )
               ),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  
+                  DatePicker()
                 ],
               ),
             ),
