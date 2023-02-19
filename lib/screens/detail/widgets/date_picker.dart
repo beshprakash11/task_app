@@ -25,6 +25,35 @@ class _DatePickerState extends State<DatePicker> {
             topRight: Radius.circular(30),
           )
         ),
+        child: ListView.separated(
+          scrollDirection: Axis.horizontal,
+          itemBuilder: (context, index) => 
+          GestureDetector(
+            onTap: () => setState(() => selected = index),
+            child: Container(
+              child: Column(children: [
+                Text(
+                  weakList[index],
+                  style: TextStyle(
+                    color: selected == index ? Colors.black : Colors.grey
+                  ),
+                ),
+                const SizedBox(height: 5,),
+                Text(
+                  dayList[index],
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                    color: selected == index ? Colors.black : Colors.grey
+                  ),
+                ),
+              ],),
+
+            ),
+          ), 
+          separatorBuilder: (_, index) => SizedBox(width: 5,), 
+          itemCount: weakList.length
+        ),
       ),
     );
   }
