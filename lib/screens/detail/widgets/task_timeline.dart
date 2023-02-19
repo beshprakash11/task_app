@@ -31,7 +31,9 @@ class TaskTimeline extends StatelessWidget {
           width: 15,
           indicator: Container(
             decoration: BoxDecoration(
-              
+              color: Colors.white,
+              shape: BoxShape.circle,
+              border: Border.all(width: 5, color: color),
             ),
           )
         ),
